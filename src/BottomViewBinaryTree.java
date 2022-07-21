@@ -10,6 +10,14 @@ public class BottomViewBinaryTree {
             this.node = node;
         }
     }
+    class Pair{
+        int val;
+        Node node;
+        Pair(Node node, int val){
+            this.node = node;
+            this.val = val;
+        }
+    }
 
 
     public static void main(String[] args) {
